@@ -1,6 +1,6 @@
 let lancementOk = false;
 let niveauDeCarburant = 17000;
-let statutEquipage  = true;
+let statutEquipage  = false;
 let computerStatus = 'vert';
 
 if (niveauDeCarburant >= 20000) {
