@@ -5,10 +5,6 @@ for (let i = 0; i < nombres.length; i++) {
 	let diviseur = nombres[i];
 
 	if (DIVIDENDE % diviseur === 0) {
-		estUnfacteur = true;
-	}
-
-	if (estUnfacteur) {
 		console.log(`${diviseur} est un facteur de ${DIVIDENDE} !`);
 	}
 }
